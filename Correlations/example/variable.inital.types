@@ -1,0 +1,8 @@
+FieldID type
+AAs.Alanine(μmol/L)	Continuous_variable
+AAs.Arginine(μmol/L)	Continuous_variable
+Meta.Dorea_longicatena	Continuous_variable
+Meta.Eubacterium_ramulus	Continuous_variable
+IR-Seq.Summary_of_VJ_genes_usage_diversity	Continuous_variable
+IR-Seq.uniq.Allergy	Continuous_variable
+Lifestyle.Sleep_quality      Multiple_unordered_discrete_variable

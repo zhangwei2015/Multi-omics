@@ -1,0 +1,16 @@
+#############
+1. step1(Step1_data_transform.pl): the matrix(data) is transformed to any two inter-omic variables in each line 
+ perl Step1_data_transform.pl <input.data> > <out1>
+ the format of <input.data>: sample_id,gender,age,variable1,varable2,varable3,..... please see the example in example/raw.data.matrix.csv 
+2. step2(Step2_determine_variable_type.pl): 1)filtration; 2) identifyingew types for each paired two variables
+ perl Step2_determine_variable_type.pl <out1> <variable.initial.type> <dir.Rscript> > <out2>
+ the format of <variable.initial.type>: variable_name,variable_type. the variable types include Binary_discrete_variable,Continuous_variable,Multiple_ordered_discrete_variable and Multiple_unordered_discrete_variable. please see the example in example/variable.inital.types 
+3. step3(Step3_two_variables_correlation.pl): random sampling and calculating correlations for each paired two variables
+ perl Step3_two_variables_correlation.pl <out2> <out3> <dir.Rscript>
+ the format of <out3>: variable1 variable2 gender variable1_newtype:variable2_newtype median_Pvalue median_Beta all_Pvalues all_Betas
+
+
+See the example in example/run.sh
+
+
+
