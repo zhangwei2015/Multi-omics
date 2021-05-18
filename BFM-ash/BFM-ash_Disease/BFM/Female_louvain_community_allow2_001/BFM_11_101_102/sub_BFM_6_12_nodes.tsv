@@ -1,0 +1,13 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Bacteroides_faecis	11	0.3916661643717742	0.5318714532611245	4	Meta
+Meta.M00298	11	0.5388580343112314	0.3680616910738585	5	Meta
+Prs.Quant.body_mass_index	11	0.37541911047049	0.36540167625851927	2	Prs
+Prs.Quant.emphysema_imaging_measurement	11	0.24861961025987558	0.36395448888642196	2	Prs
+Meta.Clostridium_leptum	11	0.22456928332298895	0.2681085129265732	2	Meta
+Prs.Quant.macrophage_inflammatory_protein_1a_measurement	11	0.15801734467297887	0.26585016913510867	1	Prs
+Prs.Quant.extraversion	11	0.3080040313844076	0.24104704060879223	2	Prs
+Prs.Quant.optic_disc_area_measurement	11	0.18873853079220684	0.22849101837247754	2	Prs
+Prs.Quant.PR_segment	11	0.21740176579751083	0.14175299070797628	1	Prs
+Prs.Quant.lipoprotein-associated_phospholipase_A(2)_measurement	11	0.21740176579751097	0.12861143488412133	1	Prs
+Skin.Number_of_brown_spots_on_frontal_face	11	0.21740176579751055	0.1280460845046236	1	Skin
+Meta.M00568	11	0.07614638226690051	0.09879865417126002	1	Meta

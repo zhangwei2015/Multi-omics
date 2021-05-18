@@ -1,0 +1,10 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Disease.Barrett's_esophagus	11	0.5163977794943221	0.6167667254169704	3	Prs
+Meta.Eubacterium_eligens	11	0.288675134594813	0.48216524637143204	2	Meta
+Meta.Parabacteroides_merdae	11	0.5773502691896257	0.4191784409239226	4	Meta
+Meta.M00080	11	0.2886751345948137	0.3029952307482179	2	Meta
+Prs.Quant.partial_thromboplastin_time	11	0.12909944487358008	0.18346259259730754	1	Prs
+Prs.Quant.temperament_and_character_inventory	11	0.2581988897471608	0.1730724307908421	1	Prs
+Prs.Quant.nicotine_dependence_symptom_count	11	0.2581988897471608	0.15124955141359486	1	Prs
+Prs.Quant.FEV/FEC_ratio	11	0.25819888974716076	0.14056755228749707	1	Prs
+Prs.Quant.lymphocyte_count	11	0.12909944487358158	0.11554459605338169	1	Prs

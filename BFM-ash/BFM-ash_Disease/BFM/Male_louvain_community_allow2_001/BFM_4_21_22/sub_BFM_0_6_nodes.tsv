@@ -1,0 +1,7 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Health.Platelet_count(G/L)	4	0.45705607224241185	0.5985162379606506	3	Health
+Amino.Phosphoethanolamine(μmol/L)	4	0.38965742823309835	0.526062502375055	2	Amino
+Amino.Taurine(μmol/L)	4	0.38965742823309857	0.46021193299938706	2	Amino
+Health.Platelet_volume_ratio(%)	4	0.539536603787305	0.376534610490762	4	Health
+Meta.M00495	4	0.3896574282330983	0.09894834681803977	2	Meta
+Meta.M00228	4	0.2109532314715832	0.040895537431852064	1	Meta

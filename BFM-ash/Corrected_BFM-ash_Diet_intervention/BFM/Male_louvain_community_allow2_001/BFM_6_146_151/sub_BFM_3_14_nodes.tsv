@@ -1,0 +1,15 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Roseburia_hominis	6	0.4665736212652305	0.5738594052635171	5	Meta
+Prs.Disease.polymyositis	6	0.3332275374975221	0.4450062917099261	3	Prs
+Prs.Quant.puberty_onset_measurement	6	0.33322753749752215	0.3644116033468151	3	Prs
+Skin.Number_of_textures_on_frontal_face	6	0.3703597146280704	0.30760636678703224	3	Skin
+Prs.Disease.cervical_carcinoma	6	0.34231566136921665	0.25969844711285606	3	Prs
+Meta.Clostridium_bolteae	6	0.3931854207088764	0.24066872192378103	5	Meta
+Prs.Quant.tumor_necrosis_factor-alpha_measurement	6	0.16307424444927865	0.19143193161600564	1	Prs
+Prs.Disease.inflammatory_bowel_disease	6	0.16307424444927873	0.1516434227618662	1	Prs
+Meta.Bacteroides_vulgatus	6	0.11646785508307024	0.1450463684069014	1	Meta
+Meta.M00377	6	0.1164678550830705	0.11080136664204439	1	Meta
+Prs.Disease.osteoarthritis	6	0.13742400446192982	0.10527646567026391	1	Prs
+Prs.Disease.Sjogren_syndrome	6	0.13742400446192984	0.08509476046002121	1	Prs
+Meta.M00028	6	0.11964428612479727	0.06814096340251764	1	Meta
+Prs.Quant.nicotine_withdrawal_symptom_count	6	0.13742400446192982	0.06283172224342078	1	Prs

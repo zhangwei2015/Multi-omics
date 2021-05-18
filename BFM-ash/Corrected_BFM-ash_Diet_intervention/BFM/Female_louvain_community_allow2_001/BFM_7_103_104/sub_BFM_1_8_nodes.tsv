@@ -1,0 +1,9 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Collinsella_aerofaciens	7	0.5211208891696025	0.6616473892865413	3	Meta
+Prs.Disease.tooth_agenesis	7	0.4815881171200629	0.5971048161560102	2	Prs
+Prs.Disease.thyroid_carcinoma	7	0.2672612419124243	0.25546103639880197	1	Prs
+Prs.Quant.P_wave_duration	7	0.2672612419124242	0.25488793992082037	1	Prs
+Meta.M00453	7	0.4179065059412753	0.24293307262719693	2	Meta
+Prs.Quant.urinary_albumin_to_creatinine_ratio	7	0.3332693175289926	0.11335613044696817	2	Prs
+Meta.M00555	7	0.23192061392433022	0.056623797772780385	2	Meta
+Prs.Quant.diverticulitis	7	0.11894244232135448	0.019698303946221324	1	Prs

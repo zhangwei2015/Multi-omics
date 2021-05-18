@@ -1,0 +1,9 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Clostridium_asparagiforme	11	0.5913741874274823	0.629091932886218	3	Meta
+Prs.Disease.pulmonary_function_measurement	11	0.3851210392077101	0.4935125607914785	2	Prs
+Prs.Disease.psoriasis	11	0.38512103920771	0.36733851360895686	2	Prs
+Prs.Disease.schizophrenia	11	0.4293743509940412	0.33111460236231965	2	Prs
+Meta.M00354	11	0.18985288633867903	0.1991707139638229	1	Meta
+Meta.Haemophilus_parainfluenzae	11	0.27962176872023037	0.19588650783999995	2	Meta
+Meta.M00094	11	0.18985288633867944	0.16187292152448748	1	Meta
+Prs.Quant.serum_albumin_measurement	11	0.1378449746185657	0.10895360876557644	1	Prs

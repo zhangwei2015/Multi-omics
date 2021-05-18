@@ -1,0 +1,10 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Quant.osteoporosis	6	0.4785460132445261	0.641761921067607	3	Prs
+Meta.M00522	6	0.4614018671600375	0.5029424981416668	2	Meta
+Meta.Veillonella_parvula	6	0.3005515558700753	0.354495491906728	2	Meta
+Meta.Roseburia_inulinivorans	6	0.23070093358001892	0.308734697822777	1	Meta
+Prs.Disease.multiple_myeloma	6	0.47854601324452656	0.27267976842835145	3	Prs
+Meta.Bilophila_unclassified	6	0.3005515558700763	0.136348349663237	2	Meta
+Prs.Disease.squamous_cell_lung_carcinoma	6	0.14489207434421425	0.10834702086549354	1	Prs
+Meta.M00243	6	0.23070093358001917	0.08645116358509443	1	Meta
+Prs.Disease.idiopathic_pulmonary_fibrosis	6	0.14489207434421497	0.0452581885082411	1	Prs

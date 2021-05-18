@@ -1,0 +1,9 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Escherichia_unclassified	8	0.5650995704547597	0.5456819206778583	3	Meta
+Prs.Disease.systemic_lupus_erythematosus	8	0.5090350669363274	0.46282580348870983	3	Prs
+Prs.Disease.Tourette_syndrome	8	0.3907311836307503	0.4536393720560642	2	Prs
+Meta.Parabacteroides_merdae	8	0.2453993177604255	0.3743658795929109	2	Meta
+Prs.Disease.osteoarthritis_hip	8	0.27242730032517226	0.21784738351184507	1	Prs
+Meta.M00176	8	0.24539931776042506	0.1830814787492248	1	Meta
+Prs.Quant.Ischemic_stroke	8	0.11830388330557767	0.1804054135624918	1	Prs
+Meta.M00355	8	0.24539931776042484	0.16900473893044063	1	Meta

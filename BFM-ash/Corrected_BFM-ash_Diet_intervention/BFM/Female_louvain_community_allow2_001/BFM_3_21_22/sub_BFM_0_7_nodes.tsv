@@ -1,0 +1,8 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Health.Platelet_count(G/L)	3	0.46470513165729616	0.5315717747527697	4	Health
+Amino.Phosphoethanolamine(μmol/L)	3	0.3941027190080546	0.5159197190141267	3	Amino
+Health.Platelet_volume_ratio(%)	3	0.4647051316572962	0.45079193905846987	4	Health
+Amino.Taurine(μmol/L)	3	0.3941027190080544	0.4262796557326246	3	Amino
+surveyHealth.Drinking_status	1	0.3077061047013178	0.18347414760835057	2	surveyHealth
+Prs.Quant.platelet_crit	3	0.3077061047013178	0.1358298045358573	2	Prs
+Health.Total_number_of_lymphocytes(G/L)	3	0.2609564738088527	0.11923957382553432	2	Health

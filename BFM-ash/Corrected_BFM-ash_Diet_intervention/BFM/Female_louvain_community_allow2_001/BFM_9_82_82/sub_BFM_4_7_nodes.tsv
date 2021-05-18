@@ -1,0 +1,8 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Quant.fibroblast_growth_factor_basic_measurement	9	0.4082482904638631	0.6094508096366281	3	Prs
+Meta.Bacteroides_caccae	9	0.1825741858350556	0.4310416229771943	1	Meta
+Meta.M00152	9	0.5477225575051662	0.42484284426821006	3	Meta
+Meta.M00448	9	0.18257418583505544	0.2997000085857529	1	Meta
+Prs.Disease.attempted_suicide	9	0.40824829046386285	0.26247235325060514	2	Prs
+Prs.Quant.protein_C_measurement	9	0.4082482904638629	0.24429075793477759	2	Prs
+Meta.M00151	9	0.36514837167011077	0.20950317846988212	2	Meta

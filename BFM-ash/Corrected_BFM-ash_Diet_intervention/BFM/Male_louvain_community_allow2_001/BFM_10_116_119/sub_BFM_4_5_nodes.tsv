@@ -1,0 +1,6 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Quant.hepatocyte_growth_factor_measurement	10	0.6532814824381883	0.6847763209227593	3	Prs
+Meta.M00462	10	0.4999999999999998	0.4379364061732555	2	Meta
+Meta.M00015	10	0.3535533905932737	0.4222701814833044	1	Meta
+Meta.M00053	10	0.35355339059327384	0.36041586809976917	1	Meta
+Prs.Quant.nicotine_dependence_symptom_count	10	0.27059805007309884	0.17629915003621152	1	Prs

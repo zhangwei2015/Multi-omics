@@ -1,0 +1,12 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Parasutterella_excrementihominis	2	0.5125325943343793	0.6555246237984874	4	Meta
+Prs.Quant.aortic_root_size	2	0.2819154139234301	0.46345359747212594	2	Prs
+Prs.Quant.social_communication_impairment	2	0.21714361278846195	0.3477811765126522	1	Prs
+Prs.Disease.small_cell_lung_carcinoma	2	0.4935481649639637	0.3257828979059649	3	Prs
+Prs.Quant.eosinophil_percentage_of_granulocytes	2	0.21714361278846186	0.21161198836444406	1	Prs
+Meta.M00267	2	0.1528834251632198	0.1715676289187764	2	Meta
+Meta.Faecalibacterium_prausnitzii	2	0.32620425807861897	0.1439629824245732	2	Meta
+Meta.M00457	2	0.326204258078619	0.14023519279084135	2	Meta
+Prs.Disease.esophageal_adenocarcinoma	2	0.27640455217550164	0.09403248647989423	2	Prs
+Prs.Disease.oropharynx_cancer	2	0.07894133670071025	0.06710273878513927	2	Prs
+Meta.M00270	2	0.033444911092541225	0.02146547682624905	1	Meta

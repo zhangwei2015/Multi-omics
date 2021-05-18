@@ -1,0 +1,7 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+surveyHealth.Bowel_Stool	3	0.6279630301995544	0.6187150970811509	3	surveyHealth
+Prs.Quant.forced_expiratory_volume	3	0.44403691698855774	0.48308415592243936	2	Prs
+Prs.Quant.gas_trapping_measurement	3	0.44403691698855796	0.403013539910022	2	Prs
+Prs.Quant.diverticulitis	3	0.3250575836718678	0.3228154038237601	1	Prs
+Meta.M00432	3	0.22985042169049158	0.27588340156214103	1	Meta
+Meta.M00125	3	0.22985042169049125	0.2026819611765302	1	Meta

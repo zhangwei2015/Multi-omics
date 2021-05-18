@@ -1,0 +1,7 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Quant.platelet_component_distribution_width	4	0.3228756817913802	0.5869745648479447	2	Prs
+Health.Platelet_distribution_width(fL)	4	0.4981656854765974	0.5381365984430498	3	Health
+Health.Average_platelet_volume(fL)	4	0.34101158654569225	0.4464960162139868	2	Health
+Prs.Quant.mean_platelet_volume	4	0.5634381196621154	0.37981270365440944	4	Prs
+Psy.Interpersonal_Sensitivity_Assessment_Score	3	0.40845488051704626	0.1388871179158351	2	Psy
+Meta.M00205	4	0.21678431137053802	0.05444123219132162	1	Meta

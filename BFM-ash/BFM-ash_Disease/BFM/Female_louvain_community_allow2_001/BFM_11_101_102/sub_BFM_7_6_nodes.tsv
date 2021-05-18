@@ -1,0 +1,7 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Bacteroides_finegoldii	11	0.6767662621499843	0.6581060121918879	4	Meta
+Prs.Disease.tonsillectomy_risk_measurement	11	0.42504408650379594	0.49820446516419226	2	Prs
+Prs.Disease.bipolar_disorder	11	0.32626038912099736	0.3295930241169189	1	Prs
+Prs.Quant.plasma_beta-amyloid_1-40_measurement	11	0.32626038912099725	0.27196238634602626	1	Prs
+Prs.Quant.basophil_percentage_of_granulocytes	11	0.32626038912099703	0.26305362524949183	1	Prs
+Meta.M00509	11	0.20490833661795962	0.25864353213813535	1	Meta

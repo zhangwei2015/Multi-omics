@@ -1,0 +1,8 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Burkholderiales_bacterium_1_1_47	10	0.6532814824381884	0.6622205185973593	4	Meta
+Prs.Disease.renal_cell_carcinoma	10	0.3109379118769158	0.38739641656105134	1	Prs
+Prs.Quant.plasma_beta-amyloid_1-42_measurement	10	0.43973261203230446	0.37081270303163016	2	Prs
+Prs.Quant.interleukin_7_measurement	10	0.3109379118769157	0.3354557972618737	1	Prs
+Prs.Disease.central_nervous_system_cancer	10	0.310937911876916	0.28894026722507227	1	Prs
+Meta.M00520	10	0.2705980500730986	0.2479193109635567	2	Meta
+Prs.Disease.Alzheimer's_disease	10	0.1287947001553888	0.12808155903695395	1	Prs

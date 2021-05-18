@@ -1,0 +1,14 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Vitamin.E(ng/mL)	0	0.2575507390459422	0.6856337123524866	3	Vitamin
+Health.Total_cholesterol(mmol/L)	0	0.17584359408239816	0.5567960983778314	3	Health
+Health.Low-density_lipoprotein(mmol/L)	0	0.17781991650062173	0.42686196193753645	3	Health
+Prs.Quant.low_density_lipoprotein_cholesterol_measurement	0	0.25755073904594217	0.152036649081557	3	Prs
+Health.Direct_bilirubin(μmol/L)	0	0.48032075784483097	0.08802124592813836	5	Health
+Hormone.Serum_testosterone_test_value(ng/mL)	0	0.05430395911159125	0.06613943663353243	1	Hormone
+Prs.Quant.atherosclerosis	0	0.060703559486435146	0.047355620009956696	2	Prs
+Prs.Quant.bilirubin_measurement	0	0.3467474544603809	0.009415179193961289	3	Prs
+Microelement.Manganese(μg/L)	0	0.3467474544603808	0.007023179536023217	3	Microelement
+Prs.Quant.interleukin-6_measurement	0	0.346747454460381	0.00602655349436021	3	Prs
+Meta.Bacteroides_xylanisolvens	0	0.01874645266141882	0.003699343120389498	1	Meta
+Health.Serum_total_bilirubin(μmol/L)	0	0.321247294005628	0.001714673338660461	3	Health
+Health.Indirect_bilirubin(μmol/L)	0	0.321247294005628	0.0016140951458166743	3	Health

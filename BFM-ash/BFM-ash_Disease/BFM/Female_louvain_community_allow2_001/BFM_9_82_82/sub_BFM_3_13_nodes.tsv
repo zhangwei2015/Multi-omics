@@ -1,0 +1,14 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Psy.Optimistic_evaluation_score	9	0.6866402868163114	0.6915034458210134	8	Psy
+Prs.Quant.macrophage_migration_inhibitory_factor_measurement	9	0.26842175217571096	0.3485664543875744	2	Prs
+Prs.Disease.primary_biliary_cirrhosis	9	0.2365616117250232	0.28098540072961087	1	Prs
+Prs.Disease.biliary_liver_cirrhosis	9	0.27338052723100714	0.2639948383567002	2	Prs
+Prs.Disease.pancreatitis	9	0.26842175217571135	0.2483654973673598	2	Prs
+Prs.Quant.transferrin_saturation_measurement	9	0.23656161172502327	0.22937226948189474	1	Prs
+Prs.Quant.alcohol_consumption_measurement	9	0.23656161172502307	0.21202313634287695	1	Prs
+Prs.Quant.visceral_adipose_tissue_measurement	9	0.23656161172502344	0.19187501058462503	1	Prs
+Prs.Disease.psoriasis_vulgaris	9	0.23656161172502282	0.18188998604497045	1	Prs
+Meta.M00622	9	0.0924767793791391	0.09167901714180078	1	Meta
+Immune.uniq.Systemic_lupus_erythematosus(SLE)	9	0.09247677937913897	0.08760571868903931	1	Immune
+Meta.M00704	9	0.10687004759115928	0.07578377324041771	2	Meta
+Prs.Disease.AL_amyloidosis	9	0.036818915505983936	0.026542445794317866	1	Prs

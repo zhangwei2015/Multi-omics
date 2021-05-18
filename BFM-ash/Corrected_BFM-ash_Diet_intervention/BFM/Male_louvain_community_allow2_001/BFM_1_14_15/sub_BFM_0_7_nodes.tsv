@@ -1,0 +1,8 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Microelement.Iron(mg/L)	1	0.6239287462518766	0.6962797975559417	5	Microelement
+Health.Hematocrit(L/L)	1	0.4740416018735768	0.6660111264261154	3	Health
+Health.Average_corpuscular_hemoglobin_concentration(g/L)	1	0.24049053976640017	0.21027009164406957	1	Health
+ECG.Diastolic_pressure(mmHg)	0	0.4232077512928	0.14664895274855078	2	ECG
+Amino.γ-Hydroxy_Lysine(μmol/L)	1	0.2404905397664	0.04923973179836365	1	Amino
+Microelement.Manganese(μg/L)	1	0.18271721152639964	0.04235897515839198	1	Microelement
+Amino.Cystathionine(μmol/L)	1	0.2404905397663999	0.041053163651265594	1	Amino

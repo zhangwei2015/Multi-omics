@@ -1,0 +1,10 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Quant.serum_IgE_measurement	8	0.19134171618254373	0.6492940467961493	2	Prs
+Meta.M00754	8	0.27778511650979953	0.5304938610400275	2	Meta
+Meta.M00481	8	0.09754516100806354	0.4306787355860342	1	Meta
+Health.14_carbon_breath_test(fasting)_qualitative_test_results	8	0.35355339059327257	0.24169001897197018	2	Health
+Prs.Disease.age-related_macular_degeneration	8	0.41573480615127245	0.14355872023339872	2	Prs
+Meta.Eubacterium_ramulus	8	0.46193976625564387	0.12426023090377024	2	Meta
+Prs.Quant.mean_corpuscular_hemoglobin	8	0.49039264020161644	0.11172727490548998	3	Prs
+Immune.uniq.Melanoma	8	0.25000000000000083	0.04923142358088399	1	Immune
+Immune.uniq.Cancer	8	0.2500000000000008	0.046247567204669264	1	Immune

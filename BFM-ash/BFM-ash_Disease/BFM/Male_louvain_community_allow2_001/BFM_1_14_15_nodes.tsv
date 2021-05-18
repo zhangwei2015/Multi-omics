@@ -1,0 +1,16 @@
+feature	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Microelement.Iron(mg/L)	0.475746584662992	0.6924140429251959	7	Microelement
+Health.Hematocrit(L/L)	0.33259558963596625	0.6522027249051637	4	Health
+Health.Average_corpuscular_hemoglobin_concentration(g/L)	0.16618254976553506	0.20556423590453482	2	Health
+ECG.Diastolic_pressure(mmHg)	0.3137706847693739	0.14643343334302247	3	ECG
+Health.Average_corpuscular_hemoglobin_content(pg)	0.3736176124977679	0.12723535071999392	5	Health
+Hormone.Serum_dehydroepiandrosterone(ng/mL)	0.3629475099894751	0.07007029150288346	4	Hormone
+Health.Average_red_blood_cell_volume(fL)	0.33488033408462575	0.060533110856999334	4	Health
+Amino.γ-Hydroxy_Lysine(μmol/L)	0.127445271352393	0.04784662577063303	1	Amino
+Microelement.Manganese(μg/L)	0.08909729788557752	0.0405321958875782	1	Microelement
+Amino.Cystathionine(μmol/L)	0.12744527135239297	0.039891674592507254	1	Amino
+Prs.Quant.mean_corpuscular_volume	0.1897958198034546	0.025071953017434367	2	Prs
+Prs.Quant.sensory_perception_of_smell	0.14460425019014095	0.020611784871651356	2	Prs
+Prs.Disease.Ewing_sarcoma	0.2216009953200791	0.012378226211125692	4	Prs
+Meta.M00291	0.05936353489649096	0.0009946680684274345	1	Meta
+Meta.M00292	0.059363534896490974	0.0009449937335944125	1	Meta

@@ -1,0 +1,11 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Holdemania_filiformis	10	0.6625512830708645	0.67628352638249	7	Meta
+Prs.Disease.temporomandibular_joint_disorder	10	0.2367430790957049	0.36810677513533624	1	Prs
+Prs.Disease.renal_cell_carcinoma	10	0.31792774560536385	0.29505626096363535	2	Prs
+Prs.Disease.rheumatoid_arthritis	10	0.2713940956427042	0.2905206323347057	2	Prs
+Prs.Quant.magnesium_measurement	10	0.31792774560536385	0.25394887988423115	2	Prs
+Prs.Disease.lung_carcinoma	10	0.23674307909570455	0.23090064744170452	1	Prs
+Prs.Quant.D_dimer_measurement	10	0.23674307909570447	0.20053673843531414	1	Prs
+Meta.Lachnospiraceae_bacterium_5_1_63FAA	10	0.22720412848863056	0.19119482474148672	2	Meta
+Prs.Disease.systemic_lupus_erythematosus	10	0.23674307909570494	0.18712787367930261	1	Prs
+Meta.M00506	10	0.09697464255604826	0.07800724925118452	1	Meta

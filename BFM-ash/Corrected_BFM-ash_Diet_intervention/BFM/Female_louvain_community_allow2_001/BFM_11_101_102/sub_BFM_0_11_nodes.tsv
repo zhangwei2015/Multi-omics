@@ -1,0 +1,12 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Odoribacter_splanchnicus	11	0.7018088237093726	0.7050659418656455	9	Meta
+Prs.Disease.chronic_kidney_disease	11	0.232352565828648	0.36807713915741075	1	Prs
+Prs.Disease.longevity	11	0.23235256582864802	0.27948965111817886	1	Prs
+Prs.Quant.economic_and_social_preference	11	0.23235256582864797	0.23930747039298403	1	Prs
+Prs.Quant.empathy_measurement	11	0.23235256582864788	0.20288226239543924	1	Prs
+Health.Red_blood_cell_distribution_width_standard_deviation(fL)	11	0.23235256582864797	0.20107241350188554	1	Health
+Prs.Disease.neuroblastoma	11	0.26095647380885245	0.2007424526838424	2	Prs
+Prs.Quant.glomerular_filtration_rate	11	0.232352565828648	0.19297695220485736	1	Prs
+Prs.Disease.restless_legs_syndrome	11	0.23235256582864805	0.19130438433532454	1	Prs
+Prs.Disease.cervical_artery_dissection	11	0.23235256582864797	0.18278500331745695	1	Prs
+Meta.M00053	11	0.0863966143067368	0.05368442624365185	1	Meta

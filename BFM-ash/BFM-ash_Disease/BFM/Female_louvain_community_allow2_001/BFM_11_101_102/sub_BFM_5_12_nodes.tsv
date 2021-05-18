@@ -1,0 +1,13 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Quant.bone_mineral_content_measurement	11	0.5129781905611265	0.5180871782146544	5	Prs
+Meta.Clostridium_citroniae	11	0.50004777026137	0.5093622924964764	5	Meta
+Prs.Disease.glaucoma	11	0.2902679923271903	0.3297272401419787	2	Prs
+Meta.M00092	11	0.3276425384737288	0.321331522413212	3	Meta
+Meta.Oscillibacter_unclassified	11	0.179899592770838	0.24426163664910433	1	Meta
+Prs.Quant.irritable_bowel_syndrome	11	0.2718948687365177	0.2335207534744108	2	Prs
+Skin.Number_of_red_areas_on_side_face	11	0.2752521380879689	0.23028631277968004	2	Skin
+Prs.Disease.Granulomatosis_with_Polyangiitis	11	0.17536494122212878	0.17644647842279407	1	Prs
+Meta.M00502	11	0.17989959277083767	0.14923699417829495	1	Meta
+Prs.Quant.tumor_necrosis_factor_beta_measurement	11	0.17536494122212837	0.14888863112578063	1	Prs
+Prs.Quant.myeloperoxidase_measurement	11	0.13101650191500766	0.1226070811509674	2	Prs
+Meta.M00726	11	0.045947012513314546	0.048258618533992895	1	Meta

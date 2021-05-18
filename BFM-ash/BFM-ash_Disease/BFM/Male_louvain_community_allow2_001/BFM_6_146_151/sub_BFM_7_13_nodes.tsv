@@ -1,0 +1,14 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Quant.visceral_adipose_tissue_measurement	6	0.5598392916663345	0.641871888446007	6	Prs
+Immune.uniq.Human_T-lymphotropic_virus_1(HTLV-1)	6	0.3246470009801608	0.345569921608783	2	Immune
+Health.Basophil_absolute_counts(G/L)	6	0.37361626613177346	0.32616481979316103	3	Health
+Immune.uniq.Transverse_myelitis	6	0.21555430699956868	0.32209584799509233	2	Immune
+Meta.M00237	6	0.32464700098016075	0.28660530839267284	2	Meta
+Prs.Quant.axial_length_measurement	6	0.3938500159662761	0.25683526419644626	4	Prs
+Immune.uniq.Lung_cancer	6	0.2155543069995688	0.23668196427501595	2	Immune
+Health.Urine_pH	6	0.1905758464688048	0.1617915072022977	1	Health
+Prs.Quant.alcohol_dependence_measurement	6	0.1438530602060698	0.09598975686458514	2	Prs
+Prs.Disease.glioblastoma_multiforme	6	0.0733772086524479	0.08825794746262401	1	Prs
+Meta.M00202	6	0.13407115451135598	0.07302813979495922	1	Meta
+Prs.Quant.maximum_cigarettes_per_day_measurement	6	0.07337720865244796	0.07094101193710954	1	Prs
+Immune.uniq.Inflammatory_cranial_neuropathy	6	0.04896926515161282	0.027957973751230623	1	Immune

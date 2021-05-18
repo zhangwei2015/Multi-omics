@@ -1,0 +1,8 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Bacteroides_salyersiae	6	0.5764509452353921	0.6186307106091499	3	Meta
+Prs.Quant.blood_lead_measurement	6	0.3681603558983795	0.45402879057657086	2	Prs
+Prs.Disease.osteitis_deformans	6	0.5344237679460087	0.39788037252486924	3	Prs
+Prs.Quant.obsessive-compulsive_symptom_measurement	6	0.28080097684867333	0.3681698880775662	1	Prs
+Amino.Sarcosine(μmol/L)	6	0.179338395448385	0.23102796401229816	1	Amino
+Meta.Parabacteroides_distasonis	6	0.26032868421979705	0.20590648903558195	1	Meta
+Immune.uniq.Celiac_disease	6	0.2603286842197975	0.14671278577066915	1	Immune

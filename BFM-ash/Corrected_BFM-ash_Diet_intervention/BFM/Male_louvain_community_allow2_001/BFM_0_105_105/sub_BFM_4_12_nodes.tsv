@@ -1,0 +1,13 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Amino.Isoleucine(μmol/L)	0	0.39385508415527565	0.48091617575268075	4	Amino
+Health.Serum_total_bilirubin(μmol/L)	0	0.38698490618665604	0.37338760486902556	4	Health
+Health.Direct_bilirubin(μmol/L)	0	0.324003475485108	0.35831717888960196	3	Health
+Microelement.Copper(mg/L)	0	0.4287439196533354	0.3536631956197982	5	Microelement
+Health.Indirect_bilirubin(μmol/L)	0	0.38698490618665593	0.343016584938222	4	Health
+Health.Total_number_of_lymphocytes(G/L)	0	0.28270408028219945	0.3239126612037789	4	Health
+Prs.Quant.bilirubin_measurement	0	0.31321029204100004	0.3108842545797546	3	Prs
+Meta.M00648	0	0.2207843429754017	0.15596678766960606	2	Meta
+Hormone.12-Deoxycortisol_test(ng/mL)	0	0.08064479211427558	0.12100199327785191	1	Hormone
+Health.Red_blood_cell_distribution_width_standard_deviation(fL)	0	0.12230444016297419	0.09640364477278877	1	Health
+Amino.Tryptophan(μmol/L)	0	0.08778854370982667	0.08958702464425587	2	Amino
+Health.Albumin_concentration(g/L)	0	0.025042754425146307	0.017805714995372705	1	Health

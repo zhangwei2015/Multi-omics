@@ -1,0 +1,11 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Flavonifractor_plautii	5	0.5945449313753782	0.5965164217982007	4	Meta
+Prs.Disease.androgenetic_alopecia	5	0.4693622571339278	0.46982287938951245	3	Prs
+Prs.Quant.serum_dimethylarginine_measurement	5	0.3478369847531648	0.36240077356503997	2	Prs
+Meta.Parabacteroides_goldsteinii	5	0.25830997398971317	0.2687975129508605	2	Meta
+Prs.Quant.mosquito_bite_reaction_size_measurement	5	0.26311889932799426	0.25794693249739925	1	Prs
+Prs.Disease.breast_carcinoma	5	0.2631188993279943	0.2537133834473326	1	Prs
+Meta.M00524	5	0.207718666775092	0.19117343952177712	1	Meta
+Meta.M00190	5	0.191429457990297	0.1880658703165361	2	Meta
+Prs.Disease.Sjogren_syndrome	5	0.11431639974524285	0.09648079258130166	1	Prs
+Prs.Disease.open-angle_glaucoma	5	0.08471808542517055	0.08784359429907883	1	Prs

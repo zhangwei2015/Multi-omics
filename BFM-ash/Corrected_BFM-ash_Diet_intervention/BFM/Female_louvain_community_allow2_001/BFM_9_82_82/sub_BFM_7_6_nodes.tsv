@@ -1,0 +1,7 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Skin.Number_of_textures_on_frontal_face	9	0.5000000000000001	0.5210655997617271	3	Skin
+Skin.Number_of_textures_on_side_face	9	0.4999999999999999	0.4780069463354602	3	Skin
+Prs.Disease.atrial_fibrillation	9	0.447213595499958	0.45179715351294286	2	Prs
+Prs.Quant.drug_dependence	9	0.44721359549995787	0.44136995196737455	2	Prs
+Prs.Disease.type_II_diabetes_mellitus	9	0.223606797749979	0.24623318793125032	1	Prs
+Prs.Disease.anti-neutrophil_antibody_associated_vasculitis	9	0.223606797749979	0.20109976315036657	1	Prs

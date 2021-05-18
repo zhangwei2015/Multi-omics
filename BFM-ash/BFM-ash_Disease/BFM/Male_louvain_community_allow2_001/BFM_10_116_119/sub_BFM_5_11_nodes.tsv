@@ -1,0 +1,12 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Veillonella_parvula	10	0.5420103371786906	0.5937929461611623	5	Meta
+Prs.Quant.neuroticism_measurement	10	0.42240050446125754	0.39957232123194975	3	Prs
+Prs.Disease.allergic_rhinitis	10	0.3620078353757762	0.3718195390363479	2	Prs
+Meta.Holdemania_filiformis	10	0.4153778679570561	0.3463982213962525	4	Meta
+Skin.Number_of_UV_spots_on_frontal_face	10	0.2391354297236543	0.2544920509952929	2	Skin
+Prs.Quant.resting_heart_rate	10	0.20494506602526164	0.245123058584705	1	Prs
+Prs.Disease.longevity	10	0.2049450660252617	0.20403057208547754	1	Prs
+Prs.Quant.telomere_length	10	0.15706276935051458	0.14054363879773973	1	Prs
+Meta.M00319	10	0.15971817018570256	0.13689885917545608	1	Meta
+Prs.Quant.parathyroid_hormone_measurement	10	0.15706276935051464	0.1259352368257643	1	Prs
+Prs.Disease.bipolar_disorder	10	0.09042194045375936	0.0931499418100637	1	Prs

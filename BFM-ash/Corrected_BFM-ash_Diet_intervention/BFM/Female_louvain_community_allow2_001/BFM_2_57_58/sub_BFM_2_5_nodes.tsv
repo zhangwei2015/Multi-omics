@@ -1,0 +1,6 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Phy.Step_index	2	0.4999999999999999	0.693757223457624	2	Phy
+ECG.Heart_rate(times/min)	2	0.6532814824381883	0.5723376873040535	3	ECG
+ECG.QT_interval(ms)	2	0.2705980500730985	0.41524639876999225	1	ECG
+Hormone.12-Deoxycortisol_test(ng/mL)	2	0.3535533905932739	0.11040547282983429	1	Hormone
+Hormone.Serum_hydrocortisone_test_value(ng/mL)	2	0.3535533905932739	0.08069415387491895	1	Hormone

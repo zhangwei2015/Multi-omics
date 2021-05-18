@@ -1,0 +1,11 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Skin.Number_of_UV_spots_on_side_face	2	0.5651272260158774	0.567345603874045	4	Skin
+Meta.M00102	2	0.5316387279359327	0.47294448440648734	4	Meta
+Meta.M00463	2	0.31025792723155365	0.3332173650830613	2	Meta
+Prs.Disease.type_I_diabetes_mellitus	2	0.24117145438247573	0.2648917243550143	1	Prs
+Meta.M00307	2	0.24117145438247573	0.26368190398279884	1	Meta
+Prs.Disease.allergic_sensitization_measurement	2	0.16188751217008795	0.251037001929427	2	Prs
+Prs.Quant.odontogenesis	2	0.22688003571563192	0.24314874605968834	1	Prs
+Prs.Quant.nausea_and_vomiting_of_pregnancy_severity_measurement	2	0.22688003571563142	0.17067551059623076	1	Prs
+Prs.Quant.risk-taking_behaviour	2	0.22688003571563087	0.1638534308441467	1	Prs
+Meta.M00354	2	0.06908647284907896	0.1599810306155598	1	Meta

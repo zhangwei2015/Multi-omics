@@ -1,0 +1,9 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Quant.mean_corpuscular_volume	1	0.3455789986381687	0.538664159963647	2	Prs
+Health.Average_red_blood_cell_volume(fL)	1	0.4322668474509545	0.5032308559130304	3	Health
+Health.Average_corpuscular_hemoglobin_content(pg)	1	0.5009615404825319	0.4708518896153942	4	Health
+Prs.Disease.Ewing_sarcoma	1	0.47616899537496843	0.34807411226280727	4	Prs
+Hormone.Serum_dehydroepiandrosterone(ng/mL)	1	0.3455789986381686	0.27043058019983407	2	Hormone
+Prs.Quant.sensory_perception_of_smell	1	0.1855084883342904	0.12471020983022121	1	Prs
+Meta.M00291	1	0.17632768862572698	0.11476014562286435	1	Meta
+Meta.M00292	1	0.17632768862572698	0.10902895339895186	1	Meta

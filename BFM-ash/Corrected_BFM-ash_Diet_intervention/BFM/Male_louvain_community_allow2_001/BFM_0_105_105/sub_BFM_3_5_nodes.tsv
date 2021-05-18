@@ -1,0 +1,6 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Phy.Step_index	0	0.6037035301741893	0.6866666813440415	3	Phy
+ECG.QT_interval(ms)	0	0.49715368087076917	0.4904406296906224	2	ECG
+ECG.Heart_rate(times/min)	0	0.34248528426988484	0.47738800550342003	2	ECG
+surveyHealth.Sport_type	0	0.4971536808707693	0.22603317196924544	2	surveyHealth
+Hormone.Serum_hydrocortisone_test_value(ng/mL)	0	0.1546683966008844	0.09469189432899927	1	Hormone

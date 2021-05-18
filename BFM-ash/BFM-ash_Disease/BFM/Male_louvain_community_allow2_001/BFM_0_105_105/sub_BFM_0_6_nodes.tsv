@@ -1,0 +1,7 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Vitamin.E(ng/mL)	0	0.43760461539968176	0.6934247610373792	3	Vitamin
+Health.Total_cholesterol(mmol/L)	0	0.468529283666407	0.5624224490869345	4	Health
+Health.Low-density_lipoprotein(mmol/L)	0	0.4685292836664072	0.415551109777727	4	Health
+Amino.Glycine(μmol/L)	0	0.43760461539968165	0.15298900046069566	3	Amino
+Meta.M00166	0	0.2982993646120285	0.06073660948063199	2	Meta
+Meta.M00552	0	0.29829936461202894	0.05536961904006597	2	Meta

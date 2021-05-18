@@ -1,0 +1,13 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Quant.monocyte_percentage_of_leukocytes	6	0.4666842760397722	0.4665321160262543	5	Prs
+Prs.Quant.granulocyte_percentage_of_myeloid_white_cells	6	0.4225415909765101	0.41405574696450087	4	Prs
+Meta.M00389	6	0.3771222510641407	0.37066308595521585	4	Meta
+Health.Monocyte_percentage(%)	6	0.27348271111140204	0.3539112887890295	2	Health
+Meta.Roseburia_intestinalis	6	0.38183307619485807	0.3468944950725472	5	Meta
+Meta.M00395	6	0.3414510497536132	0.3094777259197872	3	Meta
+Prs.Quant.interleukin_18_measurement	6	0.22099826571544118	0.24078947701036688	2	Prs
+Meta.M00465	6	0.14352942911194175	0.14575123610358864	1	Meta
+Prs.Quant.C-reactive_protein_measurement	6	0.11598449782789302	0.12766846146761954	1	Prs
+Prs.Disease.MMR-related_febrile_seizures	6	0.11743331896109133	0.12588266144316615	1	Prs
+Prs.Quant.optic_disc_size_measurement	6	0.11743331896109135	0.12000064820711162	1	Prs
+Prs.Disease.idiopathic_pulmonary_fibrosis	6	0.11743331896109116	0.07987624682693849	1	Prs

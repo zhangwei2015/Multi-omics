@@ -1,0 +1,7 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Quant.lip_morphology_measurement	6	0.6015009550075455	0.6578106466122166	3	Prs
+Meta.Oscillibacter_unclassified	6	0.5116672736016927	0.45396894882996597	2	Meta
+Immune.uniq.Aseptic_meningitis	6	0.31622776601683805	0.4509119891683706	1	Immune
+Meta.M00268	6	0.316227766016838	0.2796835195333674	1	Meta
+Inbody.Waist-to-hip_ratio	0	0.37174803446018456	0.25939381874597073	2	Inbody
+Meta.M00448	6	0.1954395075848548	0.11121016331193559	1	Meta

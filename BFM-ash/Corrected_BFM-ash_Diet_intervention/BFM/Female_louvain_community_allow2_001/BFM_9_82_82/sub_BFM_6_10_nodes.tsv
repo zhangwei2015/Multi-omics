@@ -1,0 +1,11 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.Ruminococcus_bromii	9	0.35996116334374983	0.5420356904491672	3	Meta
+Prs.Quant.vital_capacity	9	0.4267737959511384	0.4381138149184334	2	Prs
+Meta.Eubacterium_hallii	9	0.5824293969201387	0.4176313045092815	4	Meta
+Prs.Quant.growth-regulated_alpha_protein_measurement	9	0.20506979911914977	0.3512060586120336	2	Prs
+Prs.Quant.metabolic_syndrome	9	0.16301308454552274	0.2633757821541865	1	Prs
+Prs.Quant.body_fat_percentage	9	0.3318099050408973	0.21828267760513598	2	Prs
+Prs.Quant.mosquito_bite_reaction_itch_intensity_measurement	9	0.2637607114056156	0.1858799090633398	1	Prs
+Prs.Disease.oral_cavity_cancer	9	0.2637607114056152	0.1820580100150091	1	Prs
+Meta.M00778	9	0.09286852001203175	0.16028845334074507	1	Meta
+Meta.M00504	9	0.15026442186436734	0.07803214401002911	1	Meta

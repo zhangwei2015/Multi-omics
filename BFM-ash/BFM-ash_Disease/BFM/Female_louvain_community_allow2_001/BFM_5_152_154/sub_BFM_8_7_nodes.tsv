@@ -1,0 +1,8 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Quant.radius_bone_mineral_density	5	0.5693433619125148	0.5890695566504621	4	Prs
+Meta.Parabacteroides_unclassified	5	0.47922932454258005	0.5072417135888636	3	Meta
+Meta.M00328	5	0.394346144583275	0.36124864393247424	2	Meta
+Prs.Quant.chemokine_(C-C_motif)_ligand_27_measurement	5	0.3676542224009283	0.31810310437509665	2	Prs
+Meta.M00460	5	0.23961466227129027	0.24511394389838725	1	Meta
+Meta.M00259	5	0.2396146622712903	0.22830772163674243	1	Meta
+Prs.Quant.neuritic_plaque_measurement	5	0.2016891395115868	0.2276125488951655	1	Prs

@@ -1,0 +1,6 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+surveyHealth.Smoking_conditions	2	0.5650995704547593	0.7013458378948424	3	surveyHealth
+Microelement.Cadmium(μg/L)	2	0.4907986355208507	0.694828779556343	2	Microelement
+Prs.Quant.phosphorus_measurement	2	0.5650995704547592	0.12550892061800195	3	Prs
+Microelement.Lead(μg/L)	2	0.24539931776042495	0.09701678867936936	1	Microelement
+Meta.M00343	2	0.2453993177604255	0.012737202497845879	1	Meta

@@ -1,0 +1,11 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Meta.M00156	5	0.5968190740086504	0.6137249958578122	4	Meta
+Prs.Quant.tooth_eruption	5	0.41394639294493896	0.41990598658945066	2	Prs
+Prs.Quant.neuroticism_measurement	5	0.3640183487576671	0.3983261834493461	2	Prs
+Meta.Burkholderiales_bacterium_1_1_47	5	0.3175607963748312	0.3003252942725105	3	Meta
+Prs.Quant.fibroblast_growth_factor_23_measurement	5	0.2701843193715635	0.27762616744011537	1	Prs
+Prs.Quant.interleukin_1_receptor_antagonist_measurement	5	0.2701843193715636	0.2285708277627198	1	Prs
+Meta.M00760	5	0.20727308919693374	0.18206138272423036	2	Meta
+Prs.Quant.telomere_length	5	0.1437620735733756	0.1289520331255271	1	Prs
+Prs.Quant.nitric_oxide_exhalation_measurement	5	0.14376207357337553	0.11976625953418582	1	Prs
+Prs.Quant.C-X-C_motif_chemokine_10_measurement	5	0.09383402938610355	0.06871475884683526	1	Prs

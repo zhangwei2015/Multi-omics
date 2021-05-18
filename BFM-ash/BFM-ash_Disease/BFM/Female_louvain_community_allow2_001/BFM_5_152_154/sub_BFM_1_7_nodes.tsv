@@ -1,0 +1,8 @@
+feature	community	eigenvector_centrality	weighted_eigenvector_centrality	degree	source
+Prs.Quant.neutrophil_percentage_of_granulocytes	5	0.399756481652919	0.49076094972500145	3	Prs
+Health.Percentage_of_eosinophils(%)	5	0.39201653885240634	0.4519246969532879	3	Health
+Health.Eosinophil_absolute_counts(G/L)	5	0.39201653885240645	0.43625058117253424	3	Health
+Prs.Quant.eosinophil_percentage_of_leukocytes	5	0.3997564816529191	0.3977521326315885	3	Prs
+Meta.Eubacterium_ventriosum	5	0.4389146460672731	0.32472988576708545	4	Meta
+Prs.Quant.eosinophil_percentage_of_granulocytes	5	0.3997564816529191	0.31251237677216076	3	Prs
+Prs.Disease.upper_aerodigestive_tract_neoplasm	5	0.14347217893876932	0.057296994478362284	1	Prs
