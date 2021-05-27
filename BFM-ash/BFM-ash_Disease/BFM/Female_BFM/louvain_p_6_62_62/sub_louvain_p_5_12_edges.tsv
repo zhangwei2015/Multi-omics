@@ -1,0 +1,13 @@
+source	target	weight	type	beta	fdr	pvalue	response
+Prs.Quant.Microalbuminuria	Meta.M00486	8.02224738704965	Continuous_variable:Continuous_variable	0.179889558023936	7.17536137723356e-06	9.50063455097655e-09	2
+Vitamin.25-hydroxy_D(ng/mL)	Prs.Quant.vitamin_D_measurement	7.716824134227849	Continuous_variable:Continuous_variable	0.177197835328694	1.22677955114976e-05	1.91944585505452e-08	2
+Meta.M00231	Prs.Quant.Microalbuminuria	7.63019057690426	Multiple_ordered_discrete_variable:Continuous_variable	0.341711691622612	1.4515058438842999e-05	2.3432003475846803e-08	2
+Vitamin.25-hydroxyD3(ng/mL)	Prs.Quant.vitamin_D_measurement	7.432333252743231	Continuous_variable:Continuous_variable	0.174589557216562	2.0979658769576802e-05	3.6954450364207e-08	2
+Prs.Quant.interleukin_5_measurement	Meta.M00523	6.812107313774019	Continuous_variable:Continuous_variable	-0.17025326517353304	6.18244902946395e-05	1.5413195472235e-07	2
+Meta.M00395	Prs.Quant.vitamin_D_measurement	6.604742716576741	Continuous_variable:Continuous_variable	-0.16820089434884697	8.958771724883459e-05	2.4846045913221e-07	2
+Meta.M00231	Prs.Quant.orthostatic_hypotension	6.57516481532184	Multiple_ordered_discrete_variable:Continuous_variable	0.31349429679568996	9.42133041363006e-05	2.65971550274747e-07	2
+Prs.Quant.Microalbuminuria	Meta.M00569	6.28231896013683	Continuous_variable:Continuous_variable	0.15621519018262303	0.000153281263526285	5.22012664927476e-07	2
+Meta.M00486	Prs.Quant.vitamin_D_measurement	6.09100156178696	Continuous_variable:Continuous_variable	0.154202393856974	0.00021004609284858201	8.109581415235991e-07	2
+Meta.M00231	Prs.Quant.aging	6.0813596475792	Multiple_ordered_discrete_variable:Continuous_variable	0.290864402935117	0.000212458100332393	8.29163836667948e-07	2
+Meta.M00395	Prs.Quant.orthostatic_hypotension	6.02398743238955	Continuous_variable:Continuous_variable	0.160534294704247	0.000233546725623742	9.46264543965843e-07	2
+Prs.Quant.interleukin_5_measurement	Meta.M00231	5.31959855370081	Multiple_ordered_discrete_variable:Continuous_variable	0.262779187078789	0.0007223385601581269	4.79072725421327e-06	2

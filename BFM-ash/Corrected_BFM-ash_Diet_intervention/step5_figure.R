@@ -8,7 +8,6 @@ showtext_auto(enable=T)
 library(dplyr)
 library(Hmisc)
 library(lemon)
-args = commandArgs(trailingOnly=TRUE)
 #load_file
 load_file<-function(x){
   file=read.table(
@@ -24,43 +23,43 @@ load_file<-function(x){
   return(file_long)
 }
 #================================================================================
-file_list<-list.files("test/Distance_result",full.names=T)
-data_long<-lapply(file_list,FUN=load_file)
-rbind_data_long<-as.data.frame(do.call(rbind,data_long))
-rbind_data_long[rbind_data_long==""]<-NA
-data_long_nona<-rbind_data_long[complete.cases(rbind_data_long),]
-data_long_nona$tag<-paste(data_long_nona$Name,data_long_nona$Community,data_long_nona$variable,sep="_")
-data_r0<-data_long_nona[data_long_nona$Round==0,]
-data_r0$time0_value=as.numeric(data_r0$value)
-data_r1<-data_long_nona[data_long_nona$Round==1,]
-data_r1$time1_value=as.numeric(data_r1$value)
-data_r2<-data_long_nona[data_long_nona$Round==2,]
-data_r2$time2_value=as.numeric(data_r2$value)
-data_r01<-merge(data_r0,data_r1,by="tag")
-data_r02<-merge(data_r0,data_r2,by="tag")
+man_list<-list.files("test/Distance_result",full.names=T)
+woman_long<-lapply(woman_list,FUN=load_file)
+rbind_woman_long<-as.data.frame(do.call(rbind,woman_long))
+rbind_woman_long[rbind_woman_long==""]<-NA
+woman_long_nona<-rbind_woman_long[complete.cases(rbind_woman_long),]
+woman_long_nona$tag<-paste(woman_long_nona$Name,woman_long_nona$Community,woman_long_nona$variable,sep="_")
+woman_r0<-woman_long_nona[woman_long_nona$Round==0,]
+woman_r0$time0_value=as.numeric(woman_r0$value)
+woman_r1<-woman_long_nona[woman_long_nona$Round==1,]
+woman_r1$time1_value=as.numeric(woman_r1$value)
+woman_r2<-woman_long_nona[woman_long_nona$Round==2,]
+woman_r2$time2_value=as.numeric(woman_r2$value)
+woman_r01<-merge(woman_r0,woman_r1,by="tag")
+woman_r02<-merge(woman_r0,woman_r2,by="tag")
 #=================================================================================
-#Calculate the difference
-data_r01$diff1_0<-data_r01$time1_value - data_r01$time0_value
-data_r02$diff2_0<-data_r02$time2_value - data_r02$time0_value
-g4_1_0<-data_r01[data_r01$Group.x=="g4_case",c(2,3,4,5,16)]
+#Calculate the change in similarity distance(CSD) in T1 or T2 minus that in T0.
+woman_r01$diff1_0<-woman_r01$time1_value - woman_r01$time0_value
+woman_r02$diff2_0<-woman_r02$time2_value - woman_r02$time0_value
+g4_1_0<-woman_r01[woman_r01$Group.x=="g4_case",c(2,3,4,5,16)]
 g4_1_0$xlab<-"T1-T0"
 g4_1_0$tag<-"g4T1-T0"
 colnames(g4_1_0)<-c("Name","Community","Round","Group","diff_num","xlab","tag")
 g4_1_median=group_by(g4_1_0,Name,Community) %>% summarise(median_value=median(diff_num))
 g4_1_median$group="G4"
-g5_1_0<-data_r01[data_r01$Group.x=="g5_control",c(2,3,4,5,16)]
+g5_1_0<-woman_r01[woman_r01$Group.x=="g5_control",c(2,3,4,5,16)]
 g5_1_0$xlab<-"T1-T0"
 g5_1_0$tag<-"g5T1-T0"
 colnames(g5_1_0)<-c("Name","Community","Round","Group","diff_num","xlab","tag")
 g5_1_median=group_by(g5_1_0,Name,Community) %>% summarise(median_value=median(diff_num))
 g5_1_median$group="G5"
-g4_2_0<-data_r02[data_r02$Group.x=="g4_case",c(2,3,4,5,16)]
+g4_2_0<-woman_r02[woman_r02$Group.x=="g4_case",c(2,3,4,5,16)]
 g4_2_0$xlab<-"T2-T0"
 g4_2_0$tag<-"g4T2-T0"
 colnames(g4_2_0)<-c("Name","Community","Round","Group","diff_num","xlab","tag")
 g4_2_median=group_by(g4_2_0,Name,Community) %>% summarise(median_value=median(diff_num))
 g4_2_median$group="G4"
-g5_2_0<-data_r02[data_r02$Group.x=="g5_control",c(2,3,4,5,16)]
+g5_2_0<-woman_r02[woman_r02$Group.x=="g5_control",c(2,3,4,5,16)]
 g5_2_0$xlab<-"T2-T0"
 g5_2_0$tag<-"g5T2-T0"
 colnames(g5_2_0)<-c("Name","Community","Round","Group","diff_num","xlab","tag")
@@ -91,12 +90,12 @@ ggarrange(figure_list[[1]],figure_list[[2]],figure_list[[5]],figure_list[[6]],fi
 dev.off()
 #========================================================================
 #===========Error scatter plot function=====================
-len_sd=group_by(data_long_nona,Name,Group,Round,Community) %>% summarise(sd=sd(value),len=median(value))
+len_sd=group_by(woman_long_nona,Name,Group,Round,Community) %>% summarise(sd=sd(value),len=median(value))
 len_sd_g4=len_sd[len_sd$Group=="g4_case",]
 len_sd_g5=len_sd[len_sd$Group=="g5_control",]
-len_sd_g4$Community<-factor(len_sd_g4$Community,levels = c("louvain_p_0_92_97","louvain_p_1_120_120","louvain_p_2_57_58","louvain_p_3_21_22","louvain_p_4_146_147","louvain_p_5_152_154","louvain_p_6_62_62","louvain_p_7_103_104","louvain_p_8_148_150","louvain_p_9_82_82","louvain_p_10_92_93","louvain_p_11_101_102"),ordered = T)
-len_sd_g5$Community<-factor(len_sd_g5$Community,levels = c("louvain_p_0_92_97","louvain_p_1_120_120","louvain_p_2_57_58","louvain_p_3_21_22","louvain_p_4_146_147","louvain_p_5_152_154","louvain_p_6_62_62","louvain_p_7_103_104","louvain_p_8_148_150","louvain_p_9_82_82","louvain_p_10_92_93","louvain_p_11_101_102"),ordered = T)
-pdf(file = "Error_scatter_plot.pdf", width = 10, height = 5)
+len_sd_g4$Community<-factor(len_sd_g4$Community,levels = c("BFM_0_92_97","BFM_1_120_120","BFM_2_57_58","BFM_3_21_22","BFM_4_146_147","BFM_5_152_154","BFM_6_62_62","BFM_7_103_104","BFM_8_148_150","BFM_9_82_82","BFM_10_92_93","BFM_11_101_102"),ordered = T)
+len_sd_g5$Community<-factor(len_sd_g5$Community,levels = c("BFM_0_92_97","BFM_1_120_120","BFM_2_57_58","BFM_3_21_22","BFM_4_146_147","BFM_5_152_154","BFM_6_62_62","BFM_7_103_104","BFM_8_148_150","BFM_9_82_82","BFM_10_92_93","BFM_11_101_102"),ordered = T)
+pdf(file = ".pdf", width = 10, height = 5)
 ggplot(len_sd_g4,aes(as.factor(Round),value,group=Name,fill=Name,color=Name,y=len,ymin=len-sd,ymax=len+sd))+
   geom_line(size=0.5,position = position_dodge(width = 0.3)) +
   geom_errorbar(colour="black", width=0.1,size=0.6,position = position_dodge(width = 0.3))+

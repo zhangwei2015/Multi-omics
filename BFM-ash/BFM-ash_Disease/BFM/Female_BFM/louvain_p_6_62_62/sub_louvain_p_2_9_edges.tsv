@@ -1,0 +1,9 @@
+source	target	weight	type	beta	fdr	pvalue	response
+Prs.Quant.osteoporosis	Meta.M00522	10.520765208804999	Continuous_variable:Continuous_variable	0.20632661398770802	4.62302606790698e-08	3.01463537610262e-11	2
+Meta.Veillonella_parvula	Prs.Quant.osteoporosis	8.39300418975374	Multiple_ordered_discrete_variable:Continuous_variable	0.352924751794656	3.5452699753108804e-06	4.04571988665627e-09	2
+Prs.Quant.osteoporosis	Meta.Roseburia_inulinivorans	8.06275034927756	Continuous_variable:Continuous_variable	0.17841834685600302	6.69084516681408e-06	8.6546528163053e-09	2
+Meta.Bilophila_unclassified	Prs.Disease.multiple_myeloma	7.4571325748154695	Continuous_variable:Continuous_variable	0.175969290835849	2.00185780960429e-05	3.4903375149811206e-08	2
+Meta.M00522	Prs.Disease.multiple_myeloma	6.15170381026011	Continuous_variable:Continuous_variable	-0.157794893420125	0.000190699098654849	7.051738350288759e-07	2
+Meta.Bilophila_unclassified	Prs.Disease.idiopathic_pulmonary_fibrosis	5.56312729297102	Continuous_variable:Continuous_variable	0.141342785355137	0.0004897337011110191	2.73446712859859e-06	2
+Meta.M00243	Prs.Disease.multiple_myeloma	5.31360959604308	Continuous_variable:Continuous_variable	-0.141428717087874	0.000729308023923393	4.85724940733914e-06	2
+Meta.Veillonella_parvula	Prs.Disease.squamous_cell_lung_carcinoma	5.12245289900511	Multiple_ordered_discrete_variable:Continuous_variable	-0.250095707571091	0.000996358330129103	7.5430519886433196e-06	2

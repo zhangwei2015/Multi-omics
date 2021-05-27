@@ -1,0 +1,17 @@
+source	target	weight	type	beta	fdr	pvalue	response
+Meta.M00738	Prs.Quant.skin_aging_measurement	8.1576077924488	Continuous_variable:Continuous_variable	-0.18088852862615898	5.58963267730392e-06	6.956522714831801e-09	2
+Meta.M00469	Prs.Quant.skin_aging_measurement	7.94788973325004	Continuous_variable:Continuous_variable	-0.18324767855475302	8.13659844730367e-06	1.12748368633822e-08	2
+Phy.Reaction_time(s)	Meta.M00469	7.16326735489655	Continuous_variable:Continuous_variable	-0.164371087694832	3.4362554823843106e-05	6.86645605762013e-08	2
+Prs.Quant.age_at_menopause	Meta.M00188	7.14182941699754	Continuous_variable:Continuous_variable	0.16393105708185501	3.56091653119649e-05	7.213907727658861e-08	2
+Meta.M00738	Phy.Reaction_time(s)	6.921509040117309	Continuous_variable:Continuous_variable	-0.160108922787508	5.13479897973616e-05	1.19809418383402e-07	2
+Prs.Quant.skin_aging_measurement	Meta.M00485	6.75270009187039	Continuous_variable:Continuous_variable	-0.16306990084197698	6.86959330476986e-05	1.7672578039972802e-07	2
+Meta.M00374	Prs.Quant.skin_aging_measurement	6.393869413342419	Continuous_variable:Continuous_variable	0.16558156330955898	0.000128948241329187	4.03766782095061e-07	2
+Prs.Quant.age_at_menopause	Meta.M00625	6.339969632278169	Continuous_variable:Continuous_variable	0.160521270717712	0.000140415458506703	4.5712015228739794e-07	2
+Meta.M00246	Prs.Quant.skin_aging_measurement	6.18439338895176	Continuous_variable:Continuous_variable	-0.150332666470693	0.00018046182174520702	6.54043465550515e-07	2
+Phy.Reaction_time(s)	Meta.M00625	5.98091191310314	Continuous_variable:Continuous_variable	-0.157272176980097	0.000250556538169829	1.04493213878089e-06	2
+Meta.M00149	Prs.Quant.skin_aging_measurement	5.97130723430186	Continuous_variable:Continuous_variable	0.15444021486074697	0.0002547895318197	1.06829886183764e-06	2
+Prs.Quant.skin_aging_measurement	Meta.M00127	5.71199229753772	Continuous_variable:Continuous_variable	0.147189129932183	0.000386950887218921	1.94092030062473e-06	2
+Meta.M00570	Prs.Quant.skin_aging_measurement	5.64179327389448	Continuous_variable:Continuous_variable	0.145256625673019	0.000431674708012906	2.28142778335292e-06	2
+Phy.Reaction_time(s)	Meta.M00485	5.5394651469085	Continuous_variable:Continuous_variable	-0.14958868667545802	0.0005098093528470981	2.8875855050057598e-06	2
+Meta.M00625	Prs.Quant.skin_aging_measurement	5.46245950844488	Continuous_variable:Continuous_variable	-0.13856727019280302	0.000575199592768187	3.4477875060807197e-06	2
+Prs.Quant.age_at_menopause	Meta.M00246	5.206892293659821	Continuous_variable:Continuous_variable	0.140603330463917	0.0008687066677799549	6.21023030716439e-06	2

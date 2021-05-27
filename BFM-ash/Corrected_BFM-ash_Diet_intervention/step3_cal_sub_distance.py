@@ -1,22 +1,22 @@
 #!/usr/bin/python3
-#coding=utf-8
+# coding=utf-8
 
-#Description
+# Description
 '''
         This script is used to calculate the Euclidean distance between the experimental group and the background data by sub louvain.
         Input: round012_scale.csv
                bg_young_data.csv
                 (These two files were generated in the first step)
-               female_association_0.001_louvain_p_cleanDict_allow2
-               male_association_0.001_louvain_p_cleanDict_allow2
+               female_BFM_dict
+               male_BFM_dict
                 (multi-omics dictionary)
 '''
-#Version
+# Version
 '''
         Version: 1.0.0    Date: 2021 Author: lixiaoyu1@genomics.cn;
 '''
-#
-#-----------import package & input parameter
+# 
+# import package & input parameter
 from sklearn.metrics.pairwise import nan_euclidean_distances
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn import preprocessing
@@ -29,21 +29,21 @@ import sys
 
 gender=sys.argv[1]
 output_path=sys.argv[2]+"/sub_Distance_result"
-#-----------input file
+# input file
 round012_scale=pd.read_csv("input_case_control_data.csv",sep=",")
 bg_young_data=pd.read_csv("bg_young_data.csv",sep="\t")
 # input multi-omics net dictionary
 if gender=="female":
-        dictpath="Female_louvain_community_allow2_001"
-        with open("female_association_0.001_louvain_p_cleanDict_allow2",'rb') as louvain_dict:
+        dictpath="BFM/Female_BFM"
+        with open("BFM/female_BFM_dict",'rb') as louvain_dict:
                 louvain_Dict = pickle.load(louvain_dict,encoding='latin1')
 else:
-        dictpath="Male_louvain_community_allow2_001"
-        with open("male_association_0.001_louvain_p_cleanDict_allow2",'rb') as louvain_dict:
+        dictpath="BFM/Male_BFM"
+        with open("BFM/male_BFM_dict",'rb') as louvain_dict:
                 louvain_Dict = pickle.load(louvain_dict,encoding='latin1')
-#function of  the distance calculation of sub-com
-#dataframe:DataFrame  to be calculated;
-#comID:The name of each module of the network
+# function of  the distance calculation of sub-com
+# dataframe:DataFrame  to be calculated;
+# comID:The name of each module of the network
 def round_health_subdist(dataframe,comID):
         sub_file=pd.read_csv(com_path+"/"+filename,sep='\t', header=0)
         ec_sub=pd.DataFrame(sub_file.loc[:,'weighted_eigenvector_centrality'].values,index=sub_file['feature'],columns=['weighted_eigenvector_centrality'])
@@ -78,7 +78,7 @@ for comID in louvain_Dict:
         sub_path=output_path+"/"+"BFM"+comID.split('_')[2]
         if not os.path.exists(sub_path):
                 os.mkdir(sub_path)
-        com_path=dictpath+"/"+comID
+        com_path=dictpath+"/"+"BFM"+comID.split('_')[2]
         filelist=file_name(com_path)
         for filename in filelist:
                 dist_file=sub_path+"/"+"Sub_BFM"+filename.split('_')[3]

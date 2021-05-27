@@ -1,0 +1,14 @@
+source	target	weight	type	beta	fdr	pvalue	response
+Prs.Quant.heart_rate_variability_measurement	Meta.M00295	11.836771533910198	Continuous_variable:Continuous_variable	0.22261594139530902	2.9654930302330705e-09	1.4562249446171002e-12	2
+Meta.M00455	Prs.Quant.heart_rate_variability_measurement	9.427531462278099	Continuous_variable:Continuous_variable	0.188802307537483	4.40155423511691e-07	3.73653055265721e-10	2
+Meta.M00492	Prs.Quant.stromal_cell-derived_factor_1_alpha_measurement	7.993936196180299	Continuous_variable:Continuous_variable	0.170859692683378	7.5330093934412095e-06	1.01406035417677e-08	2
+Prs.Quant.heart_rate_variability_measurement	Meta.M00519	7.9651606082479	Continuous_variable:Continuous_variable	0.171013677793805	7.87587277656643e-06	1.08352613661393e-08	2
+Prs.Disease.estrogen-receptor_negative_breast_cancer	Meta.M00579	7.635647896569671	Continuous_variable:Continuous_variable	-0.16891732563099102	1.43691963523965e-05	2.31394005241406e-08	2
+Prs.Quant.heart_rate_variability_measurement	Meta.M00517	7.63155800179355	Continuous_variable:Continuous_variable	0.182204925884936	1.44872694880793e-05	2.33583412124373e-08	2
+Meta.M00455	Prs.Disease.estrogen-receptor_negative_breast_cancer	6.09138509551774	Continuous_variable:Continuous_variable	0.15833347219770097	0.00021004609284858201	8.102422850789009e-07	2
+Prs.Disease.estrogen-receptor_negative_breast_cancer	Meta.M00140	6.01010486427325	Continuous_variable:Continuous_variable	-0.15483156682137697	0.000239138061439847	9.770012868046628e-07	2
+Prs.Quant.hippocampal_sclerosis_of_aging	Meta.M00295	5.703340594360809	Continuous_variable:Continuous_variable	-0.15056111608946698	0.000392249229877827	1.9799736273969898e-06	2
+Prs.Quant.heart_rate_variability_measurement	Meta.M00051	5.6612592683287195	Continuous_variable:Continuous_variable	-0.15924224075417098	0.000419598989169882	2.18142723849097e-06	2
+Meta.M00492	Prs.Disease.estrogen-receptor_negative_breast_cancer	5.6288946941646305	Continuous_variable:Continuous_variable	-0.1500765132528	0.000440742499291395	2.35020261866437e-06	2
+Prs.Disease.estrogen-receptor_negative_breast_cancer	Meta.M00618	5.336420936016509	Continuous_variable:Continuous_variable	-0.144206489407769	0.0007039519977761469	4.6087066327196095e-06	2
+Meta.M00455	Prs.Quant.stromal_cell-derived_factor_1_alpha_measurement	5.22773754853656	Continuous_variable:Continuous_variable	-0.142340281762721	0.000839395540946992	5.91919232865997e-06	2

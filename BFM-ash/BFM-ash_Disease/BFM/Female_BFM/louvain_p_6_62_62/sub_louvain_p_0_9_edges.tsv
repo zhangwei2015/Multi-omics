@@ -1,0 +1,12 @@
+source	target	weight	type	beta	fdr	pvalue	response
+Prs.Quant.macrophage_inflammatory_protein_1b_measurement	Meta.M00072	14.0890808578584	Continuous_variable:Continuous_variable	-0.235026680288044	2.3688043516694197e-11	8.145526147862709e-15	2
+Prs.Disease.testicular_carcinoma	Meta.M00072	7.584339044522951	Continuous_variable:Continuous_variable	0.17036823369588502	1.5819618773563098e-05	2.60411977497088e-08	2
+Meta.M00537	Prs.Disease.triple-negative_breast_cancer	7.07466471006778	Continuous_variable:Continuous_variable	0.16773618590128303	3.95467878327462e-05	8.42044977780606e-08	2
+Meta.M00538	Prs.Disease.triple-negative_breast_cancer	7.03940243010332	Continuous_variable:Continuous_variable	0.16668936438179902	4.20283947569309e-05	9.13266589449349e-08	2
+Meta.M00538	Prs.Disease.testicular_carcinoma	6.22010731849605	Continuous_variable:Continuous_variable	0.15442177799417003	0.000169753937187934	6.024107059892261e-07	2
+Meta.M00538	Prs.Disease.Parkinson's_disease	5.99279983903327	Continuous_variable:Continuous_variable	-0.157453154772212	0.000245631935653866	1.01671717730195e-06	2
+Prs.Quant.macrophage_inflammatory_protein_1b_measurement	Meta.Bilophila_wadsworthia	5.831928084009	Continuous_variable:Continuous_variable	-0.15587939359474698	0.000317262297044917	1.472556326806e-06	2
+Meta.Bilophila_wadsworthia	Prs.Disease.testicular_carcinoma	5.7909291437868	Continuous_variable:Continuous_variable	0.146912639540315	0.000337768549205831	1.61834405291891e-06	2
+Meta.M00537	Prs.Disease.Parkinson's_disease	5.78960271332171	Continuous_variable:Continuous_variable	-0.150573758270158	0.00033832124975193397	1.62329438595192e-06	2
+Prs.Disease.testicular_carcinoma	Meta.M00537	5.74212436886165	Continuous_variable:Continuous_variable	0.153784568878846	0.00036871754807393	1.8108214536270198e-06	2
+Prs.Disease.testicular_carcinoma	Meta.M00332	5.216366507458741	Continuous_variable:Continuous_variable	0.145015402615125	0.00085515401517869	6.07622003759195e-06	2

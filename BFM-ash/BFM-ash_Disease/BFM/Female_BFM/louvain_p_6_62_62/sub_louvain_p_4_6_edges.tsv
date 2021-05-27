@@ -1,0 +1,7 @@
+source	target	weight	type	beta	fdr	pvalue	response
+Meta.M00842	Prs.Disease.basal_cell_carcinoma	8.06475036103816	Continuous_variable:Continuous_variable	0.16920386134066198	6.6768302807561e-06	8.61488806535767e-09	2
+Meta.M00840	Prs.Disease.basal_cell_carcinoma	7.0348300371692005	Continuous_variable:Continuous_variable	0.158964575262361	4.22645478337479e-05	9.229325497216179e-08	2
+Prs.Quant.refractive_error_measurement	Meta.M00843	6.554789309841981	Continuous_variable:Continuous_variable	-0.160283618411375	9.75706766557494e-05	2.7874731331262803e-07	2
+Prs.Disease.basal_cell_carcinoma	Meta.M00843	6.24974930219427	Continuous_variable:Continuous_variable	0.166697985569619	0.000161180963323011	5.626660321344029e-07	2
+Meta.M00842	Prs.Quant.refractive_error_measurement	6.0449657895425	Continuous_variable:Continuous_variable	-0.15917480047691598	0.00022540919545467798	9.016421594061449e-07	2
+Prs.Disease.basal_cell_carcinoma	Meta.M00740	5.49128640115587	Continuous_variable:Continuous_variable	0.147817685637754	0.0005493745070023389	3.22636575105798e-06	2
