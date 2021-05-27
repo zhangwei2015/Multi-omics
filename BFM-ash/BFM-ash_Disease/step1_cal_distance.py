@@ -1,5 +1,9 @@
 #head1 Description
+<<<<<<< HEAD
 #   This script is used to calculate the euclidean distances between patients and healthy;
+=======
+#   This script is used to calculate the euclidean distances between sample and BG group
+>>>>>>> 4eab4e3cc04fc4237e03a861267f337e7032e630
 #   Input:      Disease women ID
 #                       Background data
 #                       Health young woman ID
