@@ -1,5 +1,5 @@
 #head1 Description
-#   This script use to calculate the euclidean distances beturn disease women ang health women
+#   This script is used to calculate the euclidean distances between sample and BG group
 #   Input:      Disease women ID
 #                       Background data
 #                       Health young woman ID
