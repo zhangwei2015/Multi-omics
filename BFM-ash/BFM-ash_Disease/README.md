@@ -1,4 +1,5 @@
 Manual of Multi-omics
+
 Introduction
 
 	Multi-omics-- This program is used to calculate the distance of different groups(patients & peer) based on multi-omics network, 
@@ -15,6 +16,7 @@ Installation
 	3.Download the Multi-omics to your directory.(BFM)
 
 Version 1.0.0
+
 Usage
 
 	1. Create shell
@@ -60,7 +62,6 @@ Note:
 	Please take sex difference into consideration when applying BFM to your own dataset.
 
 
-
 Script description
 
 	
@@ -69,8 +70,8 @@ Script description
 		step2_cal_subdistance.py: This script is used to calculate the euclidean distances between patients and healthy by sub-BFM.
 		dist_peer_density.R: Visualization of results ,density plot.
 
-
 Output
+
 1. Directory
 
 the output details as follow:
@@ -94,7 +95,6 @@ the output details as follow:
         |   	|-- BFM_11_101_102
 			|-- ...
         
-
 
 2. file format
 
