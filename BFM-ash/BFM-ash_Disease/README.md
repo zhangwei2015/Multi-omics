@@ -1,27 +1,24 @@
-#Manual of Multi-omics
-#Introduction
-'''
-	Multi-omics-- This program is used to calculate the distance of different groups(patients & peer) based on multi-omics network, 
-	including distance calculation of BFM and sub-BFM.
-'''
+Manual of Multi-omics
 
-#System Requirement
-'''
-	It runs on 64-bit Linux systems. 
-	Python and R need to be installed for your system. 
-'''
+Introduction
 
-#Installation
-'''
-	1.Before use it, Python(https://www.python.org/)
-	2.Before use it, R(http://www.r-project.org/) need to be installed. 
-	3.Download the Multi-omics to your directory.(BFM)
-'''
+This programs are used to calculate the distance of different groups(patients & peer) based on multi-omics network, including distance calculation of BFM and sub-BFM.
 
-#Version 1.0.0
-#Usage
-'''
-	###1. Create shell
+System Requirement
+1. It runs on 64-bit Linux systems. 
+2. Python and R need to be installed for your system. 
+
+Installation
+
+1. Before use it, Python(https://www.python.org/). 
+2. Before use it, R(http://www.r-project.org/) need to be installed.  
+3. Download the Multi-omics to your directory(BFM). 
+
+Version 1.0.0
+
+Usage
+
+	1. Create shell
 		python step1_cal_distance.py female test
 		python step2_cal_subdistance.py female test
 		Rscript dist_peer_density.R test
@@ -30,26 +27,26 @@
 		male/female <> The sex of the sample 
 		test		<> Output file path 
 		(All parameters can be modified according to user own needs)
-	###2. Run shell
+	2. Run shell
 		1.It can easy to run the sh 'run.sh'
-			sh run.sh
-'''
+		sh run.sh
 
-#Input
-'''
+
+Input
+
 The input file is divided into two parts:
 
-	1.Input data includes multi omics data of patient group and health background;
+1.Input data includes multi omics data of patient group and health background;
 
-	###data format
+	data format
 	
 		Case&Control data:<Name,Gender,Age,Multi_omics_Features,disease_name>
-		Backgroud data:<OUTER_CUSTOMER_ID,sex,Age,Multi_omics_Features>
+		Backgroud data:<ID,sex,Age,Multi_omics_Features>
 	
 	
-	2.Input BFM for each sex;
+2.Input BFM for each sex
 		
-	###code(Take the female sample for example)
+	code(Take the female sample for example)
 	
 		dictpath="BFM/Female_BFM"
 		with open("BFM/female_BFM_dict",'rb') as louvain_dict:
@@ -59,25 +56,21 @@ The input file is divided into two parts:
 			comx=pd.read_csv(path,sep='\t',header=0)
 			
 		
-
 Note:
 	Please take sex difference into consideration when applying BFM to your own dataset.
 
-'''
 
-#Script description
-'''
-	
-	###BFM-ash_Disease
-		step1_cal_distance.py: This script is used to calculate the euclidean distances between patients and healthy by multi-omics.
-		step2_cal_subdistance.py: This script is used to calculate the euclidean distances between patients and healthy by sub-BFM.
-		dist_peer_density.R: Visualization of results ,density plot.
+Script description
 
-'''
+	BFM-ash_Disease
+	step1_cal_distance.py: This script is used to calculate the euclidean distances between patients and healthy by multi-omics.
+	step2_cal_subdistance.py: This script is used to calculate the euclidean distances between patients and healthy by sub-BFM.
+	dist_peer_density.R: Visualization of results ,density plot.
 
-#Output
-###1. Directory
-'''
+Output
+
+1. Directory
+
 the output details as follow:
 
         |-- test
@@ -91,19 +84,18 @@ the output details as follow:
         |-- sub_Distance_result
         |   |-- 5A3D4475B11F0D83E053A83CA8C03B4F
         |   	|-- BFM_0_92_97
-					|-- sub_BFM0
-					|-- ...
-					|-- sub_BFM4
+			|-- sub_BFM0
+			|-- ...
+			|-- sub_BFM4
         |   	|-- BFM_1_120_120
         |   	|-- ...
         |   	|-- BFM_11_101_102
-			|-- ...
+		|-- ...
         
-'''
 
-###2. file format
-'''
+2. file format
+
 test/Distance_result/*_dist.tsv
 	0	1 ... 528	state	community	inter_number	all_number
 
-'''
+
