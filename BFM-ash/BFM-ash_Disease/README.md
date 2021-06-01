@@ -1,8 +1,8 @@
-Manual of Multi-omics
+Manual of BFM-ash_Disease
 
 Introduction
 
-This programs are used to calculate the distance of different groups(patients & peer) based on multi-omics network, including distance calculation of BFM and sub-BFM.
+This program is used to calculate the distance of different groups(patients & peer) based on multi-omics network, including distance calculation of BFM and sub-BFM.
 
 System Requirement
 1. It runs on 64-bit Linux systems. 
