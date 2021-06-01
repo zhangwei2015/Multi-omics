@@ -1,26 +1,22 @@
 #Manual of Multi-omics
 #Introduction
-'''
+
 	Multi-omics-- This program is used to calculate the distance of different groups(patients & peer) based on multi-omics network, 
 	including distance calculation of BFM and sub-BFM.
-'''
 
 #System Requirement
-'''
 	It runs on 64-bit Linux systems. 
 	Python and R need to be installed for your system. 
-'''
 
 #Installation
-'''
+
 	1.Before use it, Python(https://www.python.org/)
 	2.Before use it, R(http://www.r-project.org/) need to be installed. 
 	3.Download the Multi-omics to your directory.(BFM)
-'''
 
 #Version 1.0.0
 #Usage
-'''
+
 	###1. Create shell
 		python step1_cal_distance.py female test
 		python step2_cal_subdistance.py female test
@@ -33,10 +29,10 @@
 	###2. Run shell
 		1.It can easy to run the sh 'run.sh'
 			sh run.sh
-'''
+
 
 #Input
-'''
+
 The input file is divided into two parts:
 
 	1.Input data includes multi omics data of patient group and health background;
@@ -63,21 +59,20 @@ The input file is divided into two parts:
 Note:
 	Please take sex difference into consideration when applying BFM to your own dataset.
 
-'''
+
 
 #Script description
-'''
+
 	
 	###BFM-ash_Disease
 		step1_cal_distance.py: This script is used to calculate the euclidean distances between patients and healthy by multi-omics.
 		step2_cal_subdistance.py: This script is used to calculate the euclidean distances between patients and healthy by sub-BFM.
 		dist_peer_density.R: Visualization of results ,density plot.
 
-'''
 
 #Output
 ###1. Directory
-'''
+
 the output details as follow:
 
         |-- test
@@ -99,11 +94,11 @@ the output details as follow:
         |   	|-- BFM_11_101_102
 			|-- ...
         
-'''
+
 
 ###2. file format
-'''
+
 test/Distance_result/*_dist.tsv
 	0	1 ... 528	state	community	inter_number	all_number
 
-'''
+
