@@ -17,7 +17,7 @@
 #Version 1.0.0
 #Usage
 
-	###1. Create shell
+	1. Create shell
 		python step1_cal_distance.py female test
 		python step2_cal_subdistance.py female test
 		Rscript dist_peer_density.R test
@@ -26,7 +26,7 @@
 		male/female <> The sex of the sample 
 		test		<> Output file path 
 		(All parameters can be modified according to user own needs)
-	###2. Run shell
+	2. Run shell
 		1.It can easy to run the sh 'run.sh'
 			sh run.sh
 
@@ -37,7 +37,7 @@ The input file is divided into two parts:
 
 	1.Input data includes multi omics data of patient group and health background;
 
-	###data format
+	data format
 	
 		Case&Control data:<Name,Gender,Age,Multi_omics_Features,disease_name>
 		Backgroud data:<OUTER_CUSTOMER_ID,sex,Age,Multi_omics_Features>
@@ -45,7 +45,7 @@ The input file is divided into two parts:
 	
 	2.Input BFM for each sex;
 		
-	###code(Take the female sample for example)
+	code(Take the female sample for example)
 	
 		dictpath="BFM/Female_BFM"
 		with open("BFM/female_BFM_dict",'rb') as louvain_dict:
@@ -64,14 +64,14 @@ Note:
 #Script description
 
 	
-	###BFM-ash_Disease
+	BFM-ash_Disease
 		step1_cal_distance.py: This script is used to calculate the euclidean distances between patients and healthy by multi-omics.
 		step2_cal_subdistance.py: This script is used to calculate the euclidean distances between patients and healthy by sub-BFM.
 		dist_peer_density.R: Visualization of results ,density plot.
 
 
 #Output
-###1. Directory
+1. Directory
 
 the output details as follow:
 
@@ -96,7 +96,7 @@ the output details as follow:
         
 
 
-###2. file format
+#2. file format
 
 test/Distance_result/*_dist.tsv
 	0	1 ... 528	state	community	inter_number	all_number
