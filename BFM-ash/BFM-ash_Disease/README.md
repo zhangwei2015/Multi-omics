@@ -4,7 +4,7 @@ Introduction
 
 This program is used to calculate the distance of different groups(patients & peer) based on multi-omics network, including distance calculation of BFM and sub-BFM. 
 
-Note: now the database is just an example data, not the complete data required!!!
+!!! Note: now the database is just an example data, not the complete data required !!!
 
 
 System Requirement
