@@ -5,6 +5,7 @@ Introduction
 This program is used to calculate the distance of different groups(case & control) based on multi-omics network, including distance calculation of BFM and sub-BFM. 
 In addition, the program is also used to calculate changes in indicators in the multi-omics network. 
 
+!!! Note: now the database is just an example data, not the complete data required !!!
 
 System Requirement
 
