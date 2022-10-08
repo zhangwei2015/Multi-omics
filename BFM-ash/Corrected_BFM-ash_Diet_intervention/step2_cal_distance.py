@@ -67,6 +67,9 @@ if not os.path.exists(output_path):
 for comID in louvain_Dict:
         dist_file=output_path+"/"+"BFM"+comID.split('_')[2]+"_dist.tsv"
         dist,inter=round_health_dist(round012_scale,comID)
+	for ID in dist.index:
+		risk_score=np.mean(dist.loc[ID,:].dropna())
+		dist.loc[ID,'risk_score']=risk_score
         dist['Round']=round012_scale['Round']
         dist['Group']=round012_scale['Group']
         dist['Name']=round012_scale['Name']

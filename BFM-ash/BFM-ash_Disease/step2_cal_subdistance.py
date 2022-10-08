@@ -111,10 +111,15 @@ for diseaseID in disease_data.index:
 			os.mkdir(sub_path)
 		com_path=dic_path+"/BFM"+comID.split('_p')[1]
 		filelist=file_name(com_path)
+		df_empty=pd.DataFrame(columns=['peer_control', 'disease'],index=filelist)
 		for filename in filelist:
 			sub_com=filename.split('.', 1 )[0]
 			dist_file=sub_path+"/sub_BFM"+filename.split('_')[3]+"_dist.csv"
 			peer_dist,disease_dist = peer_disease_cos(diseaseID, comID)
+			peer_risk_score=np.mean(np.mean(peer_dist))
+			df_empty.loc[filename,'peer_control']=peer_risk_score
+			disease_risk_score=np.mean(np.mean(disease_dist))
+			df_empty.loc[filename,'disease']=disease_risk_score
 			disease=disease_data_scale.loc[diseaseID,"disease_name"]
 			peer_dist['state'] =  "health"
 			disease_dist['state'] = disease
@@ -122,6 +127,8 @@ for diseaseID in disease_data.index:
 			dist['community']="BFM"+comID.split('_p')[1]
 			dist['sub_community']=filename
 			dist.to_csv(path_or_buf=dist_file, sep="\t",index=False)
+		risk_file=path+"/"+comID+"_riskscore.tsv"
+		df_empty.to_csv(path_or_buf=risk_file, sep="\t")
 
 
 

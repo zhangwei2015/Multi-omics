@@ -1,9 +1,5 @@
 #head1 Description
-<<<<<<< HEAD
 #   This script is used to calculate the euclidean distances between patients and healthy;
-=======
-#   This script is used to calculate the euclidean distances between sample and BG group
->>>>>>> 4eab4e3cc04fc4237e03a861267f337e7032e630
 #   Input:      Disease women ID
 #                       Background data
 #                       Health young woman ID
@@ -114,6 +110,10 @@ for LRID in patient_data.index:
                 for comID in louvain_Dict:
                         dist_file=path+"/BFM"+comID.split('_')[2]+"_dist.tsv"
                         peer_dist,patient_dist,inter_number,all_number = peer_patient_cos(LRID, comID)
+			peer_risk_score=np.mean(np.mean(peer_dist))
+			df_empty.loc[comID,'peer_control']=peer_risk_score
+			disease_risk_score=np.mean(np.mean(patient_dist))
+			df_empty.loc[comID,'disease']=disease_risk_score
                         patient=patient_data_scale.loc[LRID,"disease_name"]
                         peer_dist['state'] =  "health"
                         patient_dist['state'] = patient
@@ -122,4 +122,6 @@ for LRID in patient_data.index:
                         dist['inter_number']=inter_number
                         dist['all_number']=all_number
                         dist.to_csv(path_or_buf=dist_file, sep="\t")
+		risk_file=out_dir+"/"+LRID+"_riskscore.tsv"
+		df_empty.to_csv(path_or_buf=risk_file, sep="\t")
 

@@ -33,34 +33,18 @@ else:
         dictpath="Male_BFM"
         with open("male_BFM_dict",'rb') as louvain_dict:
                 louvain_Dict = pickle.load(louvain_dict,encoding='latin1')
-# function for calculating feature change(T0,T1)
-
-def change_stat(samplename):
-        inter=bg_young_data.columns & round012_scale.iloc[:,7:].columns
-        bg_comx=bg_young_data.loc[:,inter]
-        person_x_0=round012_scale.loc[(round012_scale['Name']==samplename) & (round012_scale['Round']==0),inter]
-        person_x_0_nona=(person_x_0.shape[0]*person_x_0.shape[1])-np.sum(person_x_0.isnull().sum(axis=0))
-        difference_0=np.sum(abs(bg_comx-person_x_0.loc[person_x_0.index[0],:]))/person_x_0_nona
-        person_x_1=bg_comx=bg_young_data.loc[:,inter]
-        person_x_1=round012_scale.loc[(round012_scale['Name']==samplename) & (round012_scale['Round']==1),inter]#similarly for T2
-        person_x_1_nona=(person_x_1.shape[0]*person_x_1.shape[1])-np.sum(person_x_1.isnull().sum(axis=0))
-        difference_1=np.sum(abs(bg_comx-person_x_1.loc[person_x_1.index[0],:]))/person_x_1_nona
-        case_difference=pd.DataFrame(difference_1-difference_0).transpose()
-        return(case_difference)
-
-group4_data=round012_scale.loc[round012_scale['Group']=="g4_case",:]#user can change byself
-group5_data=round012_scale.loc[round012_scale['Group']=="g5_control",:]
-group4_df=pd.DataFrame(columns=group4_data.iloc[:,:737].columns)
-group5_df=pd.DataFrame(columns=group5_data.iloc[:,:737].columns)
-for samplename in group4_data['Name'].unique():
-        dataframe=change_stat(samplename)
-        group4_df=group4_df.append(dataframe)
-for samplename in group5_data['Name'].unique():
-        dataframe=change_stat(samplename)
-        group5_df=group5_df.append(dataframe)
-group4_mean=np.sum(group4_df)/group4_df.shape[0]
-group5_mean=np.sum(group5_df)/group5_df.shape[0]
-RCR_result=pd.DataFrame(group4_mean-group5_mean).transpose()
+#function for calculating feature change(T0,T1)
+round_0=round012_scale.loc[(round012_scale['Round']==0),:]
+round_1=round012_scale.loc[(round012_scale['Round']==1),:]
+group4_0=round_0.loc[round_0['Group']=="g4_case",:].iloc[:,:737].reset_index(drop=True)
+group4_1=round_1.loc[round_1['Group']=="g4_case",:].iloc[:,:737].reset_index(drop=True)
+group5_0=round_0.loc[round_0['Group']=="g5_control",:].iloc[:,:737].reset_index(drop=True)
+group5_1=round_1.loc[round_1['Group']=="g5_control",:].iloc[:,:737].reset_index(drop=True)
+case_01=np.sum(abs(group4_1)-abs(group4_0))/group4_1.shape[0]
+control_01=np.sum(abs(group5_1)-abs(group5_0))/group5_1.shape[0]
+case_control01=pd.concat([case_01,control_01],axis=1)
+case_control01.columns=['case','control']
+RCR_result=pd.DataFrame(case_01-control_01).transpose()
 
 #
 out_dir=output_path+"/"+"feature_change"

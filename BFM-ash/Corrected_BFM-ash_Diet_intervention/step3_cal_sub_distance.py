@@ -3,7 +3,7 @@
 
 # Description
 '''
-        This script is used to calculate the Euclidean distance between the experimental group and the background data by sub louvain.
+        This script is used to calculate the Euclidean distance between the experimental group and the background data by sub-BFM.
         Input: round012_scale.csv
                bg_young_data.csv
                 (These two files were generated in the first step)
@@ -57,6 +57,9 @@ def round_health_subdist(dataframe,comID):
                 bg_young_data_ec=bg_young_data_trans.mul(ec_inter.loc[:,'weighted_eigenvector_centrality'],axis=0).transpose()
                 dist=nan_euclidean_distances(X=x_ec, Y=bg_young_data_ec)
                 dist_df=pd.DataFrame(dist,index=x_ec.index, columns=bg_young_data_ec.index)
+		for ID in dist_df.index:
+			risk_score=np.mean(dist_df.loc[ID,:].dropna())
+			dist_df.loc[ID,'risk_score']=risk_score
                 dist_df['Round']=round012_scale['Round']
                 dist_df['Group']=round012_scale['Group']
                 dist_df['Name']=round012_scale['Name']
